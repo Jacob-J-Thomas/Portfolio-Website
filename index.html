@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="A hand coded website, aimed at providing a unique
+    user experience while showcasing my technical and creative skills."></meta>
+    <title>Jacob Thomas' Portfolio</title>
+    <link rel="styleSheet" type="text/css" href="styleSheet.css" />
+    <script language="javascript" type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="console" id="fauxConsole">
+        <div class="console-bar" id="consoleBar">
+          <h1>
+            <img src="img/CommandLineIcon.jpg"></img>
+            Jacob Thomas' Portfolio
+          </h1>
+          <button id="consoleMin">&#8212;</button>
+          <button id="consoleMax">&#128470;</button>
+          <button class="close" id="consoleClose">&#10006;</button>
+        </div>
+        <div class="console-display" id="consoleDisplay">
+          <P>
+                     ___     ___     ___   ______    __        ________     _______         _    _        ______    __
+                     \ \\   /  \\   / //  |  ___||  | ||      |  _____||   / ____ \\       /\\  /\\      |  ___||  | ||
+                      \ \\ / /\ \\ / //   | ||__    | ||      | ||        | //   \ ||     /  \\/  \\     | ||__    | ||
+                       \ \V // \ \V //    |  __||   | ||      | ||        | ||    |||    / /\ V /\ \\    |  __||   |_||
+                        \  //   \  //     | ||___   | ||___   | ||_____   | \\___/ ||   / // \ // \ \\   | ||___    __
+                         \//     \//      |_____||  |_____||  |_______||   \______//   /_//   V/   \_\\  |_____||  |_||
+
+                                               __________     _______             ___
+                                              |___   ___||   / ____ \\           /  \\
+                                                  | ||      | //   \ ||         / /A \\
+                                                  | ||      |||     |||        / //_\ \\
+                                                  | ||      | \\___/ ||       / ______ \\
+                                                  |_||       \______//       /_//     \_\\
+                 o
+               _/|\______    ______   ___   ___   __________            _______        ___         _______   ______    ______
+              |_/_\  ___||  |  ___||  \ \\ / //  |___   ___||          |  _   \\      /  \\       / ____//  |  ___||  |  __ \\
+                  | ||      | ||__     \ \V //       | ||      _____   | |_|  //     / /A \\     / //___    | ||__    | || \ \\
+                  | ||      |  __||     |  ||        | ||     |____||  |  _  ||     / //_\ \\    \____ \\   |  __||   | ||  | ||
+                  | ||      | ||__     / /A \\       | ||              | |_|  \\   / ______ \\    ____\ \\  | ||___   | ||_/ //
+                  |_||      |_____||  /_// \_\\      |_||              |______//  /_//     \_\\  /______//  |_____||  |_____//
+
+                 ______      _______      ______     __________    ______    _______     __       __________     _______    __
+                |  __ \\    / ____ \\    |  __ \\   |___   ___||  |  ___||  / ____ \\   | ||     |___   ___||   / ____ \\  | ||
+                | ||_| ||  | //   \ ||   | ||_| ||      | ||      | ||__   | //   \ ||  | ||         | ||      | //   \ || | ||
+                | ____//   |||     |||   |     //       | ||      |  __||  |||     |||  | ||         | ||      |||     ||| |_||
+                | ||       | \\___/ ||   | ||\ \\       | ||      | ||     | \\___/ ||  | ||___   ___| ||___   | \\___/ ||  __
+                |_||        \______//    |_|| \_\\      |_||      |_||      \______//   |_____|| |_________||   \______//  |_||          *
+          </p>
+        </div>
+        <form id="consoleForm">
+          <label for="console_input">C:\</label>
+          <input name="console_input" id="consoleInput" type="text" placeholder="Enter Input">
+          </input>
+          <button id="consoleSubmit" for="console_input" type="submit">Enter</button>
+        </form>
+      </div>
+      <div class='close-div' id='closeDiv'>
+        <p class="header-close-title">You broke my website!</p>
+        <p class="header-close-para">Just kidding, click the button below to re-open the command box.</p>
+        <button class="header-button-reopen" id="consoleReopen" type="button">Reopen Command Console</button>
+      </div>
+    </header>
+    <nav>
+      <button id="home" type="submit" autofocus>Home</button>
+      <button id="proj" type="submit">Projects</button>
+    </nav>
+    <div id="contentArea">
+    </div>
+    <div class="call-to-action">
+      <div class="coa-Zindex">
+        <button id="overlayOpen">Get In Touch!</button>
+      </div>
+    </div>
+    <div class="overlay" id="overlay">
+      <button id="overlayClose">&times;</button>
+      <div class="overlay-content">
+        <h2>Contact Info</h2>
+        <div class="overlay-info">
+          <p>Phone: 630-880-2110</p>
+          <p>Email: JacobJonThomas@Gmail.com</p>
+          <p>Linkedin: <a href="https://linkedin.com/in/jake-thomas-546268131"
+            traget="_blank">My Linkedin</a></p>
+        </div>
+        <p>Or fill out the form below...</p>
+        <br/>
+        <a class="overlay-form" href="https://forms.gle/GRnvbiNwvDxRm19u8"
+          traget="_blank">Contact Form</a>
+      </div>
+    </div>
+    <footer>
+      <div class="content-sect" id="contentFooter">
+        <p>© 2021 Jacob Thomas | All rights reserved</p>
+        <p>This website is sustainably hosted by Green Geeks. For every Watt used to power
+        this website, three times as much renewable energy is returned to the grid! For more
+        information, <a href="https://www.greengeeks.com/going-green" target="_blank">click here</a>.</p>
+      </div>
+    </footer>
+  </body>
+</html>
